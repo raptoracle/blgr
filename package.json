@@ -21,11 +21,11 @@
     "test": "bmocha --reporter spec test/*-test.js"
   },
   "dependencies": {
-    "bsert": "git+https://github.com/raptoracle/bsert.git#semver:~0.0.13"
+    "bsert": "git+https://github.com/raptoracle/bsert.git"
   },
   "devDependencies": {
-    "bmocha": "git+https://github.com/raptoracle/bmocha.git#semver:=2.2.0",
-    "bts-type-deps": "git+https://github.com/raptoracle/bts-type-deps.git#semver:=0.0.3"
+    "bmocha": "git+https://github.com/raptoracle/bmocha.git",
+    "bts-type-deps": "git+https://github.com/raptoracle/bts-type-deps.git"
   },
   "engines": {
     "node": ">=8.0.0"
